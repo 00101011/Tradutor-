@@ -29,6 +29,8 @@ Execute o seguinte comando para instalar as bibliotecas necessárias:
 ```bash
 pip install openai requests python-dotenv
 
+---
+
 ## 3. Estrutura do Projeto  
 Crie a seguinte estrutura de pastas e arquivos:
 
@@ -40,8 +42,7 @@ Crie a seguinte estrutura de pastas e arquivos:
 └── 📁 artigos
 └── 📄 exemplo_artigo.txt
 
-perl
-Copiar código
+---
 
 ## 4. Configuração do Arquivo .env  
 Adicione o endpoint e a chave de API no arquivo `.env` da seguinte forma:
@@ -49,8 +50,7 @@ Adicione o endpoint e a chave de API no arquivo `.env` da seguinte forma:
 AZURE_OPENAI_ENDPOINT="https://seu-endpoint.openai.azure.com/"
 AZURE_OPENAI_KEY="sua-chave-api"
 
-python
-Copiar código
+---
 
 ## 🚀 Implementação do Tradutor Técnico  
 ### Código em Python (arquivo `tradutor.py`)  
@@ -96,12 +96,13 @@ if __name__ == "__main__":
     print(f"Traduzindo o artigo '{caminho_artigo}' para '{idioma}'...\n")
     resultado = traduzir_arquivo(caminho_artigo, idioma)
     print("Tradução Completa:\n", resultado)
-📄 Exemplo de Uso
+
+----
+
+##📄 Exemplo de Uso
 1. Adicione um artigo técnico para tradução
 Crie o arquivo exemplo_artigo.txt dentro da pasta artigos e insira o seguinte conteúdo:
 
-makefile
-Copiar código
 Título: Introdução ao Machine Learning  
 O Machine Learning é um campo da inteligência artificial que utiliza algoritmos para aprender com dados e fazer previsões...
 2. Execute o script Python:
