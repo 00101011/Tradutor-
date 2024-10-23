@@ -39,7 +39,7 @@ pip install openai requests python-dotenv
 └── 📁 artigos  
      └── 📄 exemplo_artigo.txt
 ```
----
+----
 ###🚀 Implementação do Tradutor Técnico
 ```bash
 import openai
