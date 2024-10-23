@@ -39,4 +39,51 @@ pip install openai requests python-dotenv
 └── 📁 artigos  
      └── 📄 exemplo_artigo.txt
 ```
+---
+###🚀 Implementação do Tradutor Técnico
+```bash
+import openai
+import requests
+import os
+from dotenv import load_dotenv
+
+# Carregar as variáveis de ambiente
+load_dotenv()
+
+# Configurações da API Azure OpenAI
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY")
+
+# Função para traduzir texto com precisão terminológica
+def traduzir_texto(texto, idioma_destino="pt"):
+    prompt = f"Traduza o seguinte artigo técnico para {idioma_destino}, garantindo precisão nos termos técnicos:\n\n{texto}"
+
+    response = openai.Completion.create(
+        engine="gpt-4",  # Use o modelo GPT-4 do Azure
+        prompt=prompt,
+        max_tokens=1500,
+        temperature=0.3
+    )
+
+    return response.choices[0].text.strip()
+
+# Função principal: carregar e traduzir um artigo
+def traduzir_arquivo(arquivo_path, idioma_destino="pt"):
+    with open(arquivo_path, "r", encoding="utf-8") as f:
+        conteudo = f.read()
+    
+    traducao = traduzir_texto(conteudo, idioma_destino)
+    return traducao
+
+# Exemplo de uso: traduzir um artigo técnico
+if __name__ == "__main__":
+    caminho_artigo = "artigos/exemplo_artigo.txt"
+    idioma = "en"  # Traduzir para inglês
+
+    print(f"Traduzindo o artigo '{caminho_artigo}' para '{idioma}'...\n")
+    resultado = traduzir_arquivo(caminho_artigo, idioma)
+    print("Tradução Completa:\n", resultado)
+```
+---
+###
 
