@@ -41,7 +41,7 @@ pip install openai requests python-dotenv
 ```
 ----
 
-###🚀 Implementação do Tradutor Técnico
+### 🚀 Implementação do Tradutor Técnico
 
 ```bash
 import openai
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 ```
 ---
 
-###📄 Exemplo de Uso
+### 📄 Exemplo de Uso
 
 1. Adicione um artigo técnico para tradução
 Crie o arquivo exemplo_artigo.txt dentro da pasta artigos e insira o seguinte conteúdo:
@@ -99,7 +99,7 @@ Título: Introdução ao Machine Learning
 O Machine Learning é um campo da inteligência artificial que utiliza algoritmos para aprender com dados e fazer previsões...
 ```
 
-###2. Execute o script Python:
+### 2. Execute o script Python:
 
 ```bash
 python tradutor.py
@@ -112,7 +112,7 @@ Traduzindo o artigo 'artigos/exemplo_artigo.txt' para 'en'...
 
 ---
 
-###🛠 Personalizações Futuras
+### 🛠 Personalizações Futuras
 
 Domínio Específico: Adicionar ajustes para tradução em áreas como medicina, engenharia ou direito.
 Interface Web: Implementar uma interface com Flask ou Django para facilitar o uso.
