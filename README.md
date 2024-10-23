@@ -40,7 +40,9 @@ pip install openai requests python-dotenv
      └── 📄 exemplo_artigo.txt
 ```
 ----
+
 ###🚀 Implementação do Tradutor Técnico
+
 ```bash
 import openai
 import requests
