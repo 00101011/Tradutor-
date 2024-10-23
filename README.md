@@ -28,7 +28,7 @@ A proposta é utilizar o **GPT-4** da Azure OpenAI para tradução, com foco em 
 Execute o seguinte comando para instalar as bibliotecas necessárias:  
 ```bash
 pip install openai requests python-dotenv
-
+r
 ---
 
 ### 3. Estrutura do Projeto  
