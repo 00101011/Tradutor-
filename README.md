@@ -97,7 +97,7 @@ Título: Introdução ao Machine Learning
 O Machine Learning é um campo da inteligência artificial que utiliza algoritmos para aprender com dados e fazer previsões...
 ```
 
-####2. Execute o script Python:
+###2. Execute o script Python:
 
 ```bash
 python tradutor.py
