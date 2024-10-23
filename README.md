@@ -25,7 +25,8 @@ Execute o seguinte comando para instalar as bibliotecas necessárias:
 ```bash
 pip install openai requests python-dotenv
 ```bash
+
 ---
 
 ### TESTE
-```bash
+
