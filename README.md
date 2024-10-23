@@ -34,13 +34,13 @@ pip install openai requests python-dotenv
 ### 3. Estrutura do Projeto  
 Crie a seguinte estrutura de pastas e arquivos:
 
-📁 tradutor-tecnico-azure
+"📁 tradutor-tecnico-azure
 │
 ├── 📄 README.md
 ├── 📄 .env
 ├── 📄 tradutor.py
 └── 📁 artigos
-└── 📄 exemplo_artigo.txt
+└── 📄 exemplo_artigo.txt"
 
 ---
 
