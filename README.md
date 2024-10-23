@@ -24,7 +24,7 @@ Este projeto tem como objetivo desenvolver um **tradutor automático de artigos 
 Execute o seguinte comando para instalar as bibliotecas necessárias:  
 ```bash
 pip install openai requests python-dotenv
-```bash
+
 
 ---
 
