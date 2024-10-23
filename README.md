@@ -85,7 +85,9 @@ if __name__ == "__main__":
     print("Tradução Completa:\n", resultado)
 ```
 ---
+
 ###📄 Exemplo de Uso
+
 1. Adicione um artigo técnico para tradução
 Crie o arquivo exemplo_artigo.txt dentro da pasta artigos e insira o seguinte conteúdo:
 
@@ -94,7 +96,9 @@ Título: Introdução ao Machine Learning
 ```bash
 O Machine Learning é um campo da inteligência artificial que utiliza algoritmos para aprender com dados e fazer previsões...
 ```
+
 ####2. Execute o script Python:
+
 ```bash
 python tradutor.py
 ```
@@ -103,11 +107,11 @@ A saída será semelhante a:
 vbnet
 Copiar código
 Traduzindo o artigo 'artigos/exemplo_artigo.txt' para 'en'...
+
 ---
-###Translation Complete:
-Title: Introduction to Machine Learning
-Machine Learning is a field of artificial intelligence that uses algorithms to learn from data and make predictions...
-🛠 Personalizações Futuras
+
+###🛠 Personalizações Futuras
+
 Domínio Específico: Adicionar ajustes para tradução em áreas como medicina, engenharia ou direito.
 Interface Web: Implementar uma interface com Flask ou Django para facilitar o uso.
 Detecção Automática de Idioma: Usar a API Text Analytics do Azure para detectar o idioma de entrada.
