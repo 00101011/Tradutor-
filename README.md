@@ -28,5 +28,15 @@ pip install openai requests python-dotenv
 
 ---
 
-### TESTE
+### Estrutura do Projeto
+
+```bash
+📁 tradutor-tecnico-azure  
+│  
+├── 📄 README.md  
+├── 📄 .env  
+├── 📄 tradutor.py  
+└── 📁 artigos  
+     └── 📄 exemplo_artigo.txt
+```
 
